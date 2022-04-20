@@ -12,17 +12,44 @@ body {
 #nav-bar-icons {
     background-color: rgb(221, 221, 221);
     max-width: auto;
+    padding: 4%;
    
     
 }
-
 #nav-icon {
-    padding: 1%;
+    padding: 5%;
     padding-top: 2%;
     width: 20%;
+        
+}
+
+#nav-icon1:hover {
+    
+    width: 20%;
+    content: url(img/about-me-2.png);
     
 }
 
+#nav-icon2:hover {
+    
+    width: 20%;
+    content: url(img/graphic-design2.png);
+    
+}
+
+#nav-icon3:hover {
+   
+    width: 20%;
+    content: url(img/web-design2.png);
+    
+}
+
+#nav-icon4:hover {
+    
+    width: 20%;
+    content: url(img/contact-me2.png);
+    
+}
 
 #example-sec {
 
