@@ -1,5 +1,32 @@
+body {
+    background-color: brown;
+
+}
+
 #banner-portfolio {
-    width: 100vw;
+    width: 100%;
+
+
+}
+
+#nav-bar-icons {
+    background-color: rgb(221, 221, 221);
+    max-width: auto;
+   
+    
+}
+
+#nav-icon {
+    padding: 1%;
+    padding-top: 2%;
+    width: 20%;
+    
+}
+
+
+#example-sec {
+
+    background-color: cadetblue;
 
 
 }
