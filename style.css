@@ -6,54 +6,78 @@ body {
 #banner-portfolio {
     width: 100%;
 
-
 }
 
-#nav-bar-icons {
+#nav-bar-cont {
     background-color: rgb(221, 221, 221);
-    max-width: auto;
-    padding: 4%;
-   
-    
-}
-#nav-icon {
-    padding: 5%;
-    padding-top: 2%;
-    width: 20%;
+    width: auto;
+    margin: auto;
         
 }
 
-#nav-icon1:hover {
+/*.hover-cont {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         padding:20px;
+         background-color: #333;
+         text-align: center;
+         margin: 0 auto;
+         font-family: sans-serif;
+         color: white;
+         border-top: #E9F01D 3px solid;
+
+}*/
+
+.nav-icon {
+    padding: 2%;
+    width: 22%;
+    position: relative;
+    margin: auto;
     
-    width: 20%;
-    content: url(img/about-me-2.png);
-    
+
+        
 }
 
-#nav-icon2:hover {
+/*#nav-icon1:hover{
+    margin: auto;
+  
+    padding: 2%;
+    width: 22%;
+    content: url(img/about-me-2.png);
     
-    width: 20%;
+}*/
+
+/*#nav-icon2:hover {
+    margin: auto;
+  
+    padding: 2%;
+    width: 22%;
     content: url(img/graphic-design2.png);
     
 }
 
 #nav-icon3:hover {
-   
-    width: 20%;
+    margin: auto;
+  
+    padding: 2%;
+    width: 22%;
     content: url(img/web-design2.png);
     
 }
 
 #nav-icon4:hover {
+    margin: auto;
     
-    width: 20%;
+    padding: 2%;
+    width: 22%;
     content: url(img/contact-me2.png);
     
-}
+}*/
 
-#example-sec {
+#about-me {
+    background-color: black;
 
-    background-color: cadetblue;
 
 
 }
