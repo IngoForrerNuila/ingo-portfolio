@@ -9,7 +9,7 @@ body {
 }
 
 #nav-bar-cont {
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(192, 192, 192);
     position: relative;
     width: auto;
         
@@ -20,51 +20,45 @@ body {
     width: 22%;
     position: relative;
     margin: auto;
+    
             
 }
 
 
 /*Hovering an image is possible through CSS only and some JavaScript Commands 
-the once you may find inside the INDEX
+the once you may find inside the INDEX*/
 
 
 #nav-icon1:hover{
     margin: auto;
-  
-    padding: 2%;
-    width: 22%;
+    padding: 1%;
     content: url(img/about-me-2.png);
     
-}*/
+}
 
-/*#nav-icon2:hover {
+#nav-icon2:hover {
     margin: auto;
-  
-    padding: 2%;
-    width: 22%;
+    padding: 1%;
     content: url(img/graphic-design2.png);
     
 }
 
 #nav-icon3:hover {
     margin: auto;
-  
-    padding: 2%;
-    width: 22%;
+    padding: 1%;
     content: url(img/web-design2.png);
     
 }
 
 #nav-icon4:hover {
     margin: auto;
-    
-    padding: 2%;
-    width: 22%;
+    padding: 1%;
     content: url(img/contact-me2.png);
     
-}*/
+}
 
 #about-me {
     background-color: black;
 
 }
+
