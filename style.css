@@ -3,21 +3,33 @@ body {
 
 }
 
-#banner-portfolio {
-    width: 100%;
+#banner-cont {
+    background-image: url(img/banner-portfolio-background.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    display: flex;
+      
+    
+}
+
+#banner-portfolio-title {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
 
 }
 
 #nav-bar-cont {
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(255, 255, 255);
     position: relative;
     width: auto;
         
 }
 
 .nav-icon {
-    padding: 1%;
-    width: 22%;
+    padding: 3%;
+    width: 20vw;
     position: relative;
     margin: auto;
     
@@ -30,29 +42,33 @@ the once you may find inside the INDEX*/
 
 
 #nav-icon1:hover{
+    width: 20vw;
     margin: auto;
-    padding: 1%;
+    padding: 3%;
     content: url(img/about-me-2.png);
     
 }
 
 #nav-icon2:hover {
+    width: 20vw;
     margin: auto;
-    padding: 1%;
+    padding: 3%;
     content: url(img/graphic-design2.png);
     
 }
 
 #nav-icon3:hover {
+    width: 20vw;
     margin: auto;
-    padding: 1%;
+    padding: 3%;
     content: url(img/web-design2.png);
     
 }
 
 #nav-icon4:hover {
+    width: 20vw;
     margin: auto;
-    padding: 1%;
+    padding: 3%;
     content: url(img/contact-me2.png);
     
 }
