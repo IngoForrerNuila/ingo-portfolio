@@ -1,80 +1,168 @@
-body {
-    background-color: brown;
-
+@font-face {
+    font-family: Dhurjati-Regular;
+    src: url('fonts/Dhurjati/Dhurjati-Regular.ttf');
 }
 
-#banner-cont {
-    background-image: url(img/banner-portfolio-background.png);
-    background-attachment: fixed;
-    background-size: 100%;
-    display: flex;
-      
+body {
+    display:inline-block;
+    position:relative;
+    background-color: white;
     
 }
 
-#banner-portfolio-title {
-    width: 70vw;
+#header-cont {
+    background-image: url(img/banner-header-ver-2.png);
+    align-items: center;
+    height: auto;
+    /*height: 65vh;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   padding: 5rem;   
+    
+          
+}
+
+/*#cont-log {
+    align-content: center;
+    height:auto;
+    position: relative;
+    
+
+}
+
+#cont-text {
+    align-content: left;
+    height:auto;
+    position: relative;
+    
+    
+   
+    
+}*/
+
+#banner-portfolio-logo {
+    width: 900px;
+    max-width: 100%;
+    height: auto; 
+    position: relative;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;
-
-}
-
-#nav-bar-cont {
-    background-color: rgb(255, 255, 255);
-    position: relative;
-    width: auto;
-        
-}
-
-.nav-icon {
-    padding: 3%;
-    width: 20vw;
-    position: relative;
-    margin: auto;
     
-            
+    
+
+    
+
+}
+
+#banner-portfolio-text-1 {
+    
+    max-width: 100%;
+    height: auto; 
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+
+}
+
+
+#banner-portfolio-text-2 {
+
+    max-width: 100%;
+    height: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+    
+}
+
+
+#section1 {
+    background-image: url(img/section-about-me.png);
+    /*background-attachment: fixed;*/
+    align-items: center;
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+   
+    /*display: block;*/
+    
+
+
+
+}
+
+#section2 {
+    background-image: url(img/section-graphic-design.png);
+    /*background-attachment: fixed;*/
+    align-items: center;
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   
+    
+    /*display: block;*/
+
+}
+
+#section3 {
+    background-image: url(img/section-web-design.png);
+    /*background-attachment: fixed;*/
+    align-items: center;
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+    
+    /*display: block;*/
+
+
+}
+
+#section4 {
+    background-image: url(img/section-contact-me.png);
+
+    /*background-attachment: fixed;*/
+    align-items: center;
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+    
+    
+    /*display: block;*/
+
+
+}
+
+#section-text {
+    
+    max-width: 100%;
+    height: auto; 
+    /*position: relative;
+    top: 210px;
+    left: 10px;*/
+    
+    
+    
+    
+
 }
 
 
 /*Hovering an image is possible through CSS only and some JavaScript Commands 
 the once you may find inside the INDEX*/
-
-
-#nav-icon1:hover{
-    width: 20vw;
-    margin: auto;
-    padding: 3%;
-    content: url(img/about-me-2.png);
-    
-}
-
-#nav-icon2:hover {
-    width: 20vw;
-    margin: auto;
-    padding: 3%;
-    content: url(img/graphic-design2.png);
-    
-}
-
-#nav-icon3:hover {
-    width: 20vw;
-    margin: auto;
-    padding: 3%;
-    content: url(img/web-design2.png);
-    
-}
-
-#nav-icon4:hover {
-    width: 20vw;
-    margin: auto;
-    padding: 3%;
-    content: url(img/contact-me2.png);
-    
-}
-
-#about-me {
-    background-color: black;
-
-}
 
