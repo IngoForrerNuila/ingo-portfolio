@@ -1,35 +1,55 @@
 body {
-    background-color: white;
-    padding-top: 34px;
+    background-color: #5a9cdf;
+    padding-top: 25px;
         
 }
 
 #nav-bar-cont {
+    align-items: center;
     justify-content: center;
-    margin: 0%;
+    display: flex;
     height: auto;
     background-color: #5a9cdf
     
 }
 
-#buttons-nav-bar {
-
-    background-color: #ffffff;
-    font-weight: bolder;
-    color: #5a9cdf;
+.nav-bar-icons {
+      
+    padding: 2%;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
 
-#buttons-nav-bar :hover {
- background-color: #ffffff;
- font-weight: bold;
- color: white;
+#footer-images-1:hover {
+ content: url('img/about-me-icon-footer-hover.png');
+ max-width: 100%;
+ height: auto;
+ 
+}
 
+#footer-images-2:hover {
+    content: url('img/graphic-design-icon-footer-hover.png');
+    max-width: 100%;
+    height: auto;
+}
+
+#footer-images-3:hover {
+    content: url('img/web-design-icon-footer-hover.png');
+    max-width: 100%;
+    height: auto;
+}
+
+#footer-images-4:hover {
+    content: url('img/contact-me-icon-footer-hover.png');
+    max-width: 100%;
+    height: auto;
 }
 
 #header-cont {
     background-image: url(img/banner-header-ver-2.png);
+    background-color:  #5a9cdf;
     align-items: center;
     height: auto;
     /*height: 65vh;*/
@@ -144,7 +164,6 @@ body {
 }
 
 #section-text {
-    
     max-width: 100%;
     height: auto;
            
@@ -164,15 +183,16 @@ body {
     padding: 2%;
     margin-right: auto;
     margin-left: auto;
+    
 
 }
-
 
 #social-logos-container {
     align-items: center;
     justify-content: center;
     align-self: center;
     display: flex;
+    padding: 3%;
     
 }
 
@@ -184,11 +204,20 @@ body {
     font-style: italic;
 }
 
+.newBg1 {
+    background-image: url(img/lol1.png);
+}
 
 @font-face {
     font-family: Dhurjati-Regular;
     src: url('fonts/Dhurjati/Dhurjati-Regular.ttf');
 }
+
+
+
+
+
+
 
 /*@media screen and (min-width: 872px) {
     body { padding-top: 3rem; }
