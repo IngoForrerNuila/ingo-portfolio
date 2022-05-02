@@ -1,8 +1,7 @@
 body {
     background-color: white;
     padding-top: 34px;
-    
-    
+        
 }
 
 #nav-bar-cont {
@@ -39,27 +38,10 @@ body {
     background-size: cover;
     display: flex;
     padding: 3rem;   
-    
-          
+              
 }
 
-/*#cont-log {
-    align-content: center;
-    height:auto;
-    position: relative;
-    
 
-}
-
-#cont-text {
-    align-content: left;
-    height:auto;
-    position: relative;
-    
-    
-   
-    
-}*/
 
 #banner-portfolio-logo {
     width: 900px;
@@ -68,11 +50,7 @@ body {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    
-    
-
-    
-
+           
 }
 
 #banner-portfolio-text-1 {
@@ -83,8 +61,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     
-   
-
 }
 
 
@@ -95,8 +71,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    
-    
+        
 }
 
 
@@ -112,13 +87,9 @@ body {
     padding: 8vh;
     padding-top: 10vh;
     padding-left: 6vw;
-    
-   
+       
     /*display: block;*/
     
-
-
-
 }
 
 #section2 {
@@ -133,10 +104,8 @@ body {
     padding: 8vh;
     padding-top: 10vh;
     padding-left: 6vw;
-   
-    
+       
     /*display: block;*/
-
 }
 
 #section3 {
@@ -151,10 +120,8 @@ body {
     padding: 8vh;
     padding-top: 10vh;
     padding-left: 6vw;
-    
-    
+        
     /*display: block;*/
-
 
 }
 
@@ -171,10 +138,8 @@ body {
     padding: 8vh;
     padding-top: 10vh;
     padding-left: 6vw;
-      
-    
+          
     /*display: block;*/
-
 
 }
 
@@ -182,12 +147,7 @@ body {
     
     max-width: 100%;
     height: auto;
-    
-    /*position: relative;
-    top: 210px;
-    left: 10px;*/
-        
-
+           
 }
 
 #footer {
@@ -201,22 +161,28 @@ body {
 }
 
 #footer-images {
-    
-
+    padding: 2%;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
-#footer-text {
+
+#social-logos-container {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    display: flex;
     
+}
+
+#footer-text {
+    text-align: center;
     color: white;
     font-family: sans-serif;
     font-weight: bolder;
     font-style: italic;
 }
-
-
-
-
 
 
 @font-face {
@@ -228,6 +194,5 @@ body {
     body { padding-top: 3rem; }
 }*/
 
-/*Hovering an image is possible through CSS only and some JavaScript Commands 
-the once you may find inside the INDEX*/
+
 
