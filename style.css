@@ -1,23 +1,25 @@
 body {
     background-color: #5a9cdf;
-    padding-top: 25px;
+    padding-top: 30px;
         
 }
 
 #nav-bar-cont {
+    
     align-items: center;
     justify-content: center;
     display: flex;
-    height: auto;
+    height: 5%;
     background-color: #5a9cdf
     
 }
 
 .nav-bar-icons {
-      
     padding: 2%;
     margin-right: auto;
     margin-left: auto;
+    max-width: 100%;
+    height: auto;
 
 }
 
@@ -96,7 +98,7 @@ body {
 
 
 #section1 {
-    background-image: url(img/section-about-me.png);
+    background-image: url(img/section-about-me-blur.png);
     /*background-attachment: fixed;*/
     align-items: center;
     height: 65vh;
@@ -113,7 +115,7 @@ body {
 }
 
 #section2 {
-    background-image: url(img/section-graphic-design.png);
+    background-image: url(img/section-graphic-design-blur.png);
     /*background-attachment: fixed;*/
     align-items: center;
     height: 65vh;
@@ -129,7 +131,7 @@ body {
 }
 
 #section3 {
-    background-image: url(img/section-web-design.png);
+    background-image: url(img/section-web-design-blur.png);
     /*background-attachment: fixed;*/
     align-items: center;
     height: 65vh;
@@ -146,7 +148,7 @@ body {
 }
 
 #section4 {
-    background-image: url(img/section-contact-me.png);
+    background-image: url(img/section-contact-me-blur.png);
 
     /*background-attachment: fixed;*/
     align-items: center;
