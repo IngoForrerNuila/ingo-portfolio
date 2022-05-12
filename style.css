@@ -1,6 +1,6 @@
 body {
     background-color: #5a9cdf;
-    padding-top: 30px;
+    padding-top: 65px;
         
 }
 
@@ -9,18 +9,17 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 5%;
+    height: 8%;
     background-color: #5a9cdf
     
 }
 
 .nav-bar-icons {
-    padding: 2%;
+    
     margin-right: auto;
     margin-left: auto;
     max-width: 100%;
-    height: auto;
-
+    
 }
 
 
@@ -50,7 +49,7 @@ body {
 }
 
 #header-cont {
-    background-image: url(img/banner-header-ver-2.png);
+    background-image: url(img/banner-portfolio-second-edition.png);
     background-color:  #5a9cdf;
     align-items: center;
     height: auto;
@@ -173,20 +172,27 @@ body {
 
 #footer {
     background-color: #5a9cdf;
+    
 }
 
 #footer-sections {
     align-content: center;
-    padding: 3vh;    
-
+    
 }
 
 #footer-images {
     padding: 2%;
     margin-right: auto;
     margin-left: auto;
-    
+        
+}
 
+#footer-nav-buttons {
+    padding: 1%;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
 }
 
 #social-logos-container {
@@ -225,5 +231,37 @@ body {
     body { padding-top: 3rem; }
 }*/
 
+/*---------------ABOUT-ME-PAGE-STYLE--------------*/
+
+#about-me-header-cont {
+    background-image: url(img/about-me-page-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    
+}
+
+#title-pages {
+    padding: 8vh;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
 
 
+
+/*------------GRAPHIC-DESIGN-SECTION-----------*/
+
+#graphic-design-header-cont {
+    background-image: url(img/graphic-design-page-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+
+
+}
