@@ -265,3 +265,28 @@ body {
 
 
 }
+
+
+/*---------------WEB-DESIGN-SECTION------------*/
+
+#web-design-header-cont {
+    background-image: url(img/web-design-page-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+
+
+}
+
+/*--------------CONTACT-ME-SECTION--------------*/
+
+#contact-me-header-cont {
+    background-image: url(img/contact-me-page-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+
+
+}
