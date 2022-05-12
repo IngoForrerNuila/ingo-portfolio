@@ -22,6 +22,12 @@ body {
     
 }
 
+#footer-images-0:hover {
+    content: url('img/home-icon-footer-hover.png');
+    max-width: 100%;
+    height: auto;
+    
+}
 
 #footer-images-1:hover {
  content: url('img/about-me-icon-footer-hover.png');
@@ -62,8 +68,6 @@ body {
               
 }
 
-
-
 #banner-portfolio-logo {
     width: 900px;
     max-width: 100%;
@@ -84,7 +88,6 @@ body {
     
 }
 
-
 #banner-portfolio-text-2 {
 
     max-width: 100%;
@@ -94,7 +97,6 @@ body {
     position: relative;
         
 }
-
 
 #section1 {
     background-image: url(img/section-about-me-blur.png);
@@ -191,8 +193,7 @@ body {
     padding: 1%;
     margin-right: auto;
     margin-left: auto;
-    
-    
+        
 }
 
 #social-logos-container {
@@ -221,12 +222,6 @@ body {
     src: url('fonts/Dhurjati/Dhurjati-Regular.ttf');
 }
 
-
-
-
-
-
-
 /*@media screen and (min-width: 872px) {
     body { padding-top: 3rem; }
 }*/
@@ -249,10 +244,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     
-
 }
-
-
 
 /*------------GRAPHIC-DESIGN-SECTION-----------*/
 
@@ -263,9 +255,7 @@ body {
     background-size: cover;
     height: 25vh;
 
-
 }
-
 
 /*---------------WEB-DESIGN-SECTION------------*/
 
@@ -275,7 +265,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 25vh;
-
 
 }
 
